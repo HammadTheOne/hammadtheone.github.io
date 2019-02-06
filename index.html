@@ -1,7 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="favicon.ico">
+
+	<title>Nygel Lopez</title>
+    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/theme.css" rel="stylesheet">
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+     <img class="profile rounded-circle" src="assets/profile.JPG" alt="Profile">
+<div class="container homepage" role="main">
+	<h1 class="intro-header animate">Hi, I'm <span class="myname">Nygel.</span></h1>
+	<div class="intro-body animate">
+		<p>I am a Computer Science Undergrad at the University of Toronto.
+		<br>
+		<span id="biography">In my downtime, I can be found 
+			<span id="quote">contemplating my soul-crushing student debt.</span>
+		</span>
+		<p id="occupation">I worked as an Android developer at <a href="http://corp.flipp.com">Flipp</a>. Currently finishing my studies at the University of Toronto.</p>
+	</div>
+
+	<div class="links animate">
+		<a href="https://github.com/Kampijo"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+		<a href="assets/resume.pdf"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a>
+		<a href="mailto:tenmataylopez@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+	</div>	
+    
+    <div class="projects animate">
+        <div class="projects-header">
+            <h1>Projects</h1>
+        </div>
+        
+        <hr class="projects-divider">
+        
+        <div class="card-deck">  
+            <div class="card">
+                <a href="https://github.com/Kampijo/Reminder"></a>
+                <img class="card-img-top" src="assets/reminder.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Reminder</h3>
+                    <p class="card-text">A simple reminder app, fitted with notes and alerts.</p>
+                </div>
+            </div>   
+            <div class="card">
+                <a href="https://github.com/Kampijo/I-Wanna-Be-The-Hero"></a>
+                <img class="card-img-top" src="assets/iwbth.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">I Wanna Be The Hero</h3>
+                    <p class="card-text">A clone of the critically acclaimed I Wanna Be The Guy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/quotecycler.js"></script>
 </body>
 </html>
