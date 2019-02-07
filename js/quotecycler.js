@@ -4,7 +4,8 @@ var quotes = [
     "discovering music on Spotify.",
     "learning more about data analysis pipelines.",
     "trying to motivate myself to go to the gym.",
-    "playing hockey with my league team the ""Fantasia Flops"".",
+    "playing hockey with my league team the Fantasia Flops.",
+    "staring at the ceiling.",
 ];
 
 var counter = 0; 
