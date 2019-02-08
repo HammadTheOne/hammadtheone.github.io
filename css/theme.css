@@ -36,6 +36,13 @@ a {
     padding-top: 60px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 .profile {
     width: 25%;
     height: 25%;
